@@ -3,11 +3,11 @@ var b = 0;
 var i=0;
 var t=0;
 console.log("numeros primos");
-while(i<johnatanMillan .length) 
+for( var i=0;i<johnatanMillan .length;i ++) 
 {
 if(johnatanMillan [i]!=0) 
 {
-for(var k=1; t<=johnatanMillan [i]; t++){ 
+for(var t=1; t<=johnatanMillan [i]; t++){ 
 if((johnatanMillan [i] % t) == 0){ // si el modulo o reciduo es = 0
 b++; //aumenta esta variable
 }
@@ -23,7 +23,7 @@ i++;
 }
 i=0;  
 console.log("numeros pares e impares");
-while(i<johnatanMillan .length)
+for( var i=0;i<johnatanMillan .length;i ++) 
 {
 if(johnatanMillan [i]!=0)
 {
